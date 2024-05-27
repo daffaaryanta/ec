@@ -267,12 +267,15 @@ button {
 
 .banner_section {
     width: 100%;
+    max-width: 100%;
     float: left;
-    background-image: url(../images/a.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/a.jpg);
+    
     height: auto;
-    background-size: 100%;
-    padding: 10px 0px 25px 0px;
     background-repeat: no-repeat;
+    background-size: 300px 100px;
+    background-attachment: scroll;
+    
 }
 
 .banner_taital {
